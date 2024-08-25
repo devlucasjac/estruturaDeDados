@@ -1,5 +1,6 @@
 #include <stdio.h>
 #define TAM 10
+
 int main()
 { 
     float v[TAM]; /* Declara um vetor com 10 elementos */

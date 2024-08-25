@@ -3,7 +3,7 @@
 
 int main(){
    int v[TAM]; 
-   int soma = 0,neg=0,zero=0;
+   int soma=0,neg=0,zero=0;
    
    for(int i=0;i<TAM;i++){
         printf("Digite o %d elemento do vetor:",(i+1));
@@ -15,7 +15,7 @@ int main(){
         }
    }   
 
-   printf("negativos: %d",neg);
-   printf("zeros: %d",zero);
-   printf("soma: %d",soma);
+   printf("negativos: %d\n",neg);
+   printf("zeros: %d\n",zero);
+   printf("soma: %d\n",soma);
 }
