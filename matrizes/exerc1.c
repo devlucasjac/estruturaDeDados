@@ -7,9 +7,7 @@ int main(){
     float m[4][4];
 
     for(int i=0;i<TAM;i++){
-        for(int j=0;j<TAM;j++){
-            /*printf("Digite o elemento [%d][%d] da matriz A:",(i+1),(j+1));
-            scanf("%f",&m[i][j]);*/
+        for(int j=0;j<TAM;j++){           
             m[i][j] = ((float) rand() / RAND_MAX * 10);
             printf("Valor RAND_MAX: %d",RAND_MAX);
             if(i==j){
